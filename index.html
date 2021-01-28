@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap css Cdn file Included -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- External Css file -->
+    <link rel="stylesheet" href="style.css">
+    <title>Bank Project</title>
+</head>
+<body>
+    
+
+    <div id="login-ares">
+        <h1 class="text-center">Welcome to <span>Developer Bank</span></h1>
+        <div class="submit-area">
+            <h4>Login</h4>
+            <input type="text" placeholder="Your Email" class="form-control"> <br>
+            <input type="password" placeholder="Enter Password" class="form-control"> <br>
+            <button id="login-btn" >Enter</button>
+        </div>
+    </div>
+<div id="transaction-area">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="deposit"> 
+                <h4>Deposit</h4>
+                <h2>$ <span id="current-Deposit">00</span></h2>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="withdraw">
+            <h4>Withdraw</h4>
+            <h2>$<span id="totalWithdraw-ammount">00</span></h2>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="blance">
+                <h4>Blance</h4>
+                <h2>$ <span id="currentBalance">1200</span></h2>
+            </div>
+        </div>
+    </div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="submit-area">  
+        <h3>Deposit</h3>
+        <input type="text" id="deposit-ammount" class="form-control" placeholder="Ammount you want to deposit"> <br>
+        <button id="deposit-button" class="btn btn-success">Deposit</button>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="submit-area">
+            <h3>Withdraw</h3>
+            <input type="text" id="withdraw-ammount" class="form-control" placeholder="Withdraw your Money"> <br>
+            <button id="withdraw-button" class="btn btn-success">Withdraw</button>
+        </div>
+    </div>
+</div>
+</div>
+<div class="fotter"><footer>&copy Developer-Bank || 2021 || <span>RH-SUMON</span></footer></div>
+    <!-- Bootstrap Javascript CDN Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <!-- External Javascript File -->
+    <script src="script.js"></script>
+</body>
+</html>
